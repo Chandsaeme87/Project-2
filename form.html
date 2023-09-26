@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        input, label {
+    display:block;
+}
+    </style>
+    <head>
+
+    </head>
+    <body>
+        <h1>Task Form</h1>
+        <p>Fill the form below.</p>
+
+        <form>
+            <p>
+                <label for="title">Title</label>
+                <input id="title" type="text" value="" name="title">            
+            </p>
+
+            <p>
+                <label>Description</label>
+                <textarea name="Description" rows="4" cols="21"></textarea>
+            </p>
+
+            <p>
+                <label>Category</label>
+                <input type="text">
+            </p>
+
+            <p>
+                <label>Priority Level</label>
+                <select name="priority" id="priority">
+                    <option value="" selected disabled hidden>Select an item</option>
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                  </select>
+            </p>
+            <p>
+                <label>Progress Level</label>
+                <select name="progress" id="progress">
+                    <option value="" selected disabled hidden>Select an item</option>
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                  </select>
+            </p>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
